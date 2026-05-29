@@ -1,0 +1,15 @@
+# Normalize text files to LF in the repo; Windows checks out as CRLF when configured in Git.
+* text=auto eol=lf
+
+# Shell scripts stay LF; batch files use CRLF on Windows
+*.sh text eol=lf
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Binary assets — no EOL conversion
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
