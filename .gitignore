@@ -12,6 +12,7 @@ build/
 .venv/
 venv/
 env/
+.dev/
 
 # Test / tooling
 .pytest_cache/

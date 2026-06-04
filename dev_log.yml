@@ -1,9 +1,0 @@
-5/29/2026:
-
-# 1st run: 
-  - Request body: {"message": "How has the S&P 500 performed during 2026 so far?", "conversation_id": "numero_uno"}
-  - curl: curl -X 'POST' \  'http://localhost:8000/chat' \  -H 'accept: application/json' \  -H 'Content-Type: application/json' \  -d '{  "message": "How has the S&P 500 performed during 2026 so far?",  "conversation_id": "numero_uno"}'
-  - Code: 200
-  - Response body: {   "conversation_id": "numero_uno",  "reply": "I cannot provide information about the performance of the S&P 500 in 2026, as my access only extends to the current date. However, for real-time or future stock data, please check a financial news website or a stock market tracking app."}
-  - Response headers: content-length: 279 content-type: application/json date: Fri,29 May 2026 14:13:33 GMT server: uvicorn 
-  - 
